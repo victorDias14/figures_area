@@ -11,7 +11,7 @@ public class Triangle {
 	}
 
 	public Double area(double height, double base) {
-		return height * base;
+		return height * base / 2;
 	}
 
 }
