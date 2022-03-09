@@ -31,7 +31,7 @@ public class Program {
 				System.out.print("Informe a base do triângulo: ");
 				double base = sc.nextDouble();
 				
-				Triangle triangle = new Triangle(height, base);
+				var triangle = new Triangle(height, base);
 				
 				System.out.println("AREA = " + triangle.area(height, base));
 				
@@ -44,7 +44,7 @@ public class Program {
 				System.out.print("Informe a base do retângulo: ");
 				double base = sc.nextDouble();
 				
-				Rectangle rectangle = new Rectangle (height, base);
+				var rectangle = new Rectangle (height, base);
 				
 				System.out.println("AREA = " + rectangle.area(height, base));
 				System.out.println("PERÍMETRO = " +rectangle.perimeter(height, base));
@@ -55,7 +55,7 @@ public class Program {
 				System.out.print("Informe o lado do quadrado: ");
 				double side = sc.nextDouble();
 				
-				Square square = new Square(side);
+				var square = new Square(side);
 				
 				System.out.println("AREA = " + square.area(side));
 				System.out.println("PERIMETRO = " + square.perimeter(side));
@@ -66,7 +66,7 @@ public class Program {
 				System.out.print("Informe o raio do círculo: ");
 				double radius = sc.nextDouble();
 				
-				Circle circle = new Circle(radius);
+				var circle = new Circle(radius);
 				
 				System.out.println("AREA = " + String.format("%.2f", circle.area(radius)));
 				System.out.println("PERIMETRO = " + String.format("%.2f",circle.perimeter(radius)));
